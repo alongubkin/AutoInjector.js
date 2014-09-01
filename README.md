@@ -1,7 +1,7 @@
 AutoInjector.js
 ===
 
-Automatic DI for Angular.js
+Fully-tested Automatic DI for Angular.js
 
 ### What?
 
