@@ -3,6 +3,8 @@ AutoInjector.js
 
 Automatic DI for frameworks like Angular.js. Fully tested!
 
+`bower install autoinjector`
+
 ### What?
 
 Ever encountered a long dependency list in your Angular controller or service? 
@@ -28,10 +30,6 @@ For example:
 		...
 	}));
 									   
-### Install
-
-`bower install autoinjector`
-
 
 ### How to use
 
