@@ -1,9 +1,7 @@
 AutoInjector.js
 ===
 
-Fully-tested Automatic DI for Angular.js
-
-<sub>More frameworks coming soon!</sub>
+Automatic DI for frameworks like Angular.js. Fully tested!
 
 ### What?
 
@@ -51,4 +49,4 @@ Note that the anonymous function that's passed to `$inject` **must have a name**
 
 AutoInjector uses [Esprima](http://esprima.org/) to build a syntax tree from the function that's passed to `$inject`. It then scans the tree for undefined identifiers. If an identifier is defined in the function itself, or in the global scope - it is ignored.  
 
-After building a list of identifiers, AutoInjector rewrites the function using the list of identifiers as the function parameters. `$inject` returns that function, which is then passed back to Angular.
+After building a list of identifiers, AutoInjector rewrites the function using the list of identifiers as the function parameters. `$inject` returns that function, which is then passed back to the framework.
