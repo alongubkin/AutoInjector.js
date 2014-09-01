@@ -3,6 +3,8 @@ AutoInjector.js
 
 Fully-tested Automatic DI for Angular.js
 
+<sub>More frameworks coming soon!</sub>
+
 ### What?
 
 Ever encountered a long dependency list in your Angular controller or service? 
