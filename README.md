@@ -1,4 +1,4 @@
-AutoInjector.js
+AutoInjector.js [![Build Status](https://travis-ci.org/alongubkin/AutoInjector.js.svg?branch=master)](https://travis-ci.org/alongubkin/AutoInjector.js)
 ===
 
 Automatic DI for frameworks like Angular.js. Fully tested!
